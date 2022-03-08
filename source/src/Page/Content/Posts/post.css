@@ -1,0 +1,193 @@
+.post {
+    width:72%;
+    height:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin-top: 22px;
+}
+
+.post_header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:5vh;
+    padding:12px;
+}
+
+.poster, .more {
+    width:10%;
+    height:100%;
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.more {
+    cursor: pointer;
+}
+
+.poster img {
+    width:35px;
+    height:35px;
+    border-radius: 100px;
+}
+
+.post_det {
+    display: flex;
+    width:90%;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 12px;
+}
+
+.post_det p {
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.time {
+    font-size: 14px;
+    color:grey;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.post_body {
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post_text {
+    width:97%;
+    height:auto; 
+    padding:3%; 
+    padding-top:1%;
+    align-items: flex-start;
+    display: flex;
+    padding-left: 5%;
+}
+
+.post_picture {
+    width:100%;
+    height:auto;
+}
+
+.post_picture img {
+    width:99%;
+    height:auto;
+    border-radius: 0px;
+}
+
+.actions {
+    margin-top: 10px;
+    border: 2px solid rgb(230, 230, 230);
+    border-style: solid hidden hidden hidden;
+    height: 6vh;
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:grey;
+}
+
+.post_action {
+    width:90%;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+
+.post_action span {
+    padding:20px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.post_footer {
+    background-color: rgb(240, 240, 240);
+    padding:10px;
+    width:96.5%;
+    height:auto;
+    height:12vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.stats {
+    display: flex;
+    height:5vh;
+    width:100%;
+}
+
+.stat_view {
+    width:40%;
+    height:100%;
+    display:flex;
+    padding-left: 2%;
+    justify-content: left;
+}
+
+.comments {
+    width:60%;
+    height:100%;
+    text-align: right;
+    color:blue;
+    cursor: pointer;
+}
+
+.comment_on {
+    height:7vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post_comment {
+    width:90%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post_comment input {
+    width:79%;
+    margin-left: 1%;
+    height:70%;
+    border:2px solid rgb(226, 226, 226);
+    padding-left: 12px;
+}
+
+.post_comment input:focus {
+    outline:none;
+    border:2px solid rgb(226, 226, 226);
+}
+
+.post_comment .add_com {
+    width:10%;
+    height:72.5%;
+    margin-left: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+    border:2px solid rgb(226, 226, 226);
+    border-style: solid hidden solid hidden;
+}
+
+#morepost {
+    cursor: pointer;
+}
